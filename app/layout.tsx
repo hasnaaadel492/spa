@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Cairo, Playfair_Display } from 'next/font/google';
 import './globals.css';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import Navbar from '@/app/components/Navbar';
+import Footer from '@/app/components/Footer';
 
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
