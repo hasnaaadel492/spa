@@ -16,24 +16,29 @@ const playfair = Playfair_Display({
   variable: '--font-playfair',
 });
 
-// إعدادات الـ Meta tags والتجربة الشاملة لـ OpenGraph & Meta
+// تحديث رابط Vercel الفعلي لضمان قراءة الصورة على WhatsApp
+const siteUrl = 'https://spa-81v2.vercel.app';
+const imageUrl = 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&h=630&auto=format&fit=crop';
+
 export const metadata: Metadata = {
-  title: 'Velour Spa & Wellness | خدمات المساج الفاخر والاسترخاء',
-  description: 'تجربة استرخاء فريدة ومساج فاخر في المقر أو داخل منزلك مع خبراء Velour Spa. احجز موعدك الآن بسهولة عبر الواتساب.',
-  keywords: ['مساج', 'سبا', 'Velour Spa', 'مساج منزلي', 'استرخاء', 'مساج سويدي', 'أحجار ساخنة'],
+  title: 'Velour Spa & Wellness | تجربة مساج فاخرة واسترخاء تام',
+  description: 'احصل على أفضل جلسات المساج السويدي والأحجار الساخنة في المقر أو خدمة منزلية راقية.',
+  keywords: ['مساج', 'سبا', 'Velour Spa', 'مساج منزلي', 'استرخاء'],
   authors: [{ name: 'Velour Spa Team' }],
-  metadataBase: new URL('https://velour-spa.vercel.app'), // استبدل هذا برابط موقعك الحقيقي بعد الرفع
+  metadataBase: new URL(siteUrl),
 
   openGraph: {
     title: 'Velour Spa & Wellness | تجربة مساج فاخرة واسترخاء تام',
     description: 'احصل على أفضل جلسات المساج السويدي والأحجار الساخنة في المقر أو خدمة منزلية راقية.',
-    url: 'https://velour-spa.vercel.app',
+    url: siteUrl,
     siteName: 'Velour Spa',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&h=630&auto=format&fit=crop',
+        url: imageUrl,
+        secureUrl: imageUrl,
         width: 1200,
         height: 630,
+        type: 'image/jpeg',
         alt: 'Velour Spa & Wellness',
       },
     ],
@@ -43,9 +48,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Velour Spa & Wellness | خدمات المساج الفاخر',
-    description: 'تجربة استرخاء فريدة ومساج فاخر في المقر أو داخل منزلك.',
-    images: ['https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&h=630&auto=format&fit=crop'],
+    title: 'Velour Spa & Wellness | تجربة مساج فاخرة واسترخاء تام',
+    description: 'احصل على أفضل جلسات المساج السويدي والأحجار الساخنة في المقر أو خدمة منزلية راقية.',
+    images: [imageUrl],
   },
 };
 
