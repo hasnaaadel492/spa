@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 
 // تحديث رابط Vercel الفعلي لضمان قراءة الصورة على WhatsApp
 const siteUrl = 'https://spa-81v2.vercel.app';
-const imageUrl = 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&h=630&auto=format&fit=crop';
+const imageUrl = 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200&h=630&auto=format&fit=crop';
 
 export const metadata: Metadata = {
   title: 'Velour Spa & Wellness | تجربة مساج فاخرة واسترخاء تام',

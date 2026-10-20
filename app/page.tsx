@@ -56,8 +56,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 scale-105"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1920&auto=format&fit=crop')`,
-          }}
+backgroundImage: `url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1920&auto=format&fit=crop')`,          }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/60 to-stone-950/30"></div>
         </div>
