@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-stone-950/20 backdrop-blur-md border-b border-white/10 transition-all">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold tracking-wider text-amber-500 font-serif">VELOUR</span>
+          <span className="text-2xl font-bold tracking-wider text-amber-500 ">VELOUR</span>
           <span className="text-xs uppercase tracking-widest text-stone-300 border-r border-stone-700 pr-2 mr-2">
             SPA & WELLNESS
           </span>

@@ -51,7 +51,7 @@ export default function AboutPage() {
           <span className="inline-block px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 text-xs font-semibold mb-4 border border-amber-500/20">
             عن Velour Spa
           </span>
-          <h1 className="text-4xl sm:text-5xl font-bold text-stone-100 mb-6 font-serif leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold text-stone-100 mb-6  leading-tight">
             ملاذك الخاص لاستعادة <span className="text-amber-400">التوازن والصفاء</span>
           </h1>
           <p className="text-stone-300 leading-relaxed mb-6 font-light">
@@ -62,15 +62,15 @@ export default function AboutPage() {
           </p>
           <div className="flex gap-8 border-t border-stone-800 pt-6">
             <div>
-              <span className="block text-3xl font-bold text-amber-400 font-serif">+5000</span>
+              <span className="block text-3xl font-bold text-amber-400 ">+5000</span>
               <span className="text-xs text-stone-400">عميل سعيد</span>
             </div>
             <div>
-              <span className="block text-3xl font-bold text-amber-400 font-serif">100%</span>
+              <span className="block text-3xl font-bold text-amber-400">100%</span>
               <span className="text-xs text-stone-400">زيوت طبيعية</span>
             </div>
             <div>
-              <span className="block text-3xl font-bold text-amber-400 font-serif">+8</span>
+              <span className="block text-3xl font-bold text-amber-400 ">+8</span>
               <span className="text-xs text-stone-400">سنوات خبرة</span>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
       {/* Why Choose Us */}
       <div className="mb-20">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-stone-100 mb-3 font-serif">لماذا تختار Velour Spa؟</h2>
+          <h2 className="text-3xl font-bold text-stone-100 mb-3 ">لماذا تختار Velour Spa؟</h2>
           <p className="text-stone-400 text-sm">نحرص على أدق التفاصيل لتقديم تجربة حيوية تدوم نتائجها مع الوقت.</p>
         </div>
 
@@ -114,7 +114,7 @@ export default function AboutPage() {
 
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-stone-900 via-stone-900 to-amber-950/30 border border-stone-800 rounded-3xl p-10 md:p-14 text-center">
-        <h2 className="text-3xl font-bold text-stone-100 mb-4 font-serif">هل أنت جاهز لتجربة الاسترخاء؟</h2>
+        <h2 className="text-3xl font-bold text-stone-100 mb-4 ">هل أنت جاهز لتجربة الاسترخاء؟</h2>
         <p className="text-stone-300 max-w-xl mx-auto mb-8 text-sm font-light">
           احجز موعدك اليوم ودع خبراءنا يهتمون براحتك التامة في المقر أو في منزلك.
         </p>
